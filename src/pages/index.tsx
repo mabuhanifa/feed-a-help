@@ -23,7 +23,12 @@ const Home: NextPage = () => {
     )
     setTitle("");
   };
-
+  const changeStatus = (id: number) => {
+    setTodos((prevTodos) => prevTodos.map((prevTodo) => prevTodo.id === id ?
+      { ...prevTodo, isCompleted: !prevTodo.isCompleted }
+      :
+      prevTodo))
+  }
   return (
     <section className="p-10">
       <form onSubmit={(e) => createTodo(e)}>
@@ -39,6 +44,10 @@ const Home: NextPage = () => {
         {
           todos && todos.map((todo) => (
             <div key={todo.id} className="flex items-center p-2">
+              <input
+                type="checkbox"
+                checked={todo.isCompleted}
+                onChange={() => changeStatus(todo.id)} />
               <h1 className={`text-2xl font-bold ${todo.isCompleted ? "line-through" : ""}`}>
                 {todo.title}
               </h1>
