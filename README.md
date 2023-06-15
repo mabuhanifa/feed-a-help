@@ -1,28 +1,70 @@
-# Create T3 App
+# Coding Test
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+- Task 1: Create simple TODO LIST using React and Next.js
 
-## What's next? How do I make an app with this?
+- [x] Create a new React Next.js project using TypeScript.
+- [ ] Create a page component called HomePage that renders a simple TodoList as shown in the animation.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## What are we looking for:
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+- How do you generate projects?
+- How do you structure your Project?
+- How do you do naming conventions?
+- How do you do Separation of Concern?
+- Using React Design Patterns?
+- How dirty and disgusting you are
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+Task 2: Styling Choose one of the following options:
 
-## Learn More
+Option A: Tailwind CSS
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- [x] Install Tailwind CSS in your Next.js project.
+- [x] Use Tailwind CSS utility classes to style the components you created in Task 1.
+- [ ] Show your Creativity
+- [ ] Make it responsive
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Option B: styled-components
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- [ ] Install styled-components in your Next.js project.
+- [ ] Create styled components for the components you created in Task 1.
+- [ ] Show your Creativity
+- [ ] Make it responsive
 
-## How do I deploy this?
+# What are we looking for:
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- How much CSS used
+- The Responsive Design
+
+# Task 3: Git and Version Control
+
+- [x] Initialise a new Git repository in your project directory.
+- [x] Commit your code with an appropriate commit message.
+- [ ] Create a new branch called feature/add-todo.
+- [ ] In the HomePage component, add a footer component that displays copyright information.
+- [ ] Commit your changes with an appropriate commit message.
+- [ ] Push your branch to the remote repository.
+- [ ] Open a new pull request to merge your feature/add-footer branch into the main branch.
+- [ ] Write a descriptive pull request title and description.
+- [ ] Request a code review from a team member (imaginary reviewer).
+- [ ] Incorporate any feedback given by the reviewer by making additional commits.
+- [ ] Merge the pull request into the main branch.
+- [ ] Create a new branch called feature/update-navbar.
+- [ ] In the TodoList component, add a new link to a page called Blog.
+- [ ] Commit your changes with an appropriate commit message.
+- [ ] Push your branch to the remote repository.
+- [ ] Open a new pull request to merge your feature/update-navbar branch into the main branch.
+- [ ] Write a descriptive pull request title and description.
+- [ ] Request a code review from the same team member (imaginary reviewer).
+- [ ] Incorporate any feedback given by the reviewer by making additional commits.
+- [ ] Merge the pull request into the main branch.
+- [ ] What are we looking for:
+
+Can you make a branch?
+How do you make commit messages?
+Can you make a clean Pull request?
+Can you handle git rebase or git merge?
+Can you make a Pull Request that can close other multiple Issues?
+INSTRUCTIONS for SUBMISSION
+
+Deadline: 24th June (2 weeks) Saturday
+MUST submit you github repository with all your code
