@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         {
           todos && todos.map((todo) => (
             <div key={todo.id} className="flex items-center p-2">
-              <CheckBox isCompleted={todo.isCompleted} changeStatus={changeStatus} id={todo.id} />
+              <CheckBox id={todo.id} changeStatus={changeStatus} isCompleted={todo.isCompleted} />
               <h1 className={`text-2xl font-bold ${todo.isCompleted ? "line-through" : ""}`}>
                 {todo.title}
               </h1>
