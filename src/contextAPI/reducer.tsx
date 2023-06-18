@@ -1,5 +1,9 @@
 export const initialState: StateType = {
-    todos: [],
+    todos: [{
+        id: 0,
+        title: "title 1",
+        isCompleted: false
+    }],
 };
 
 export const reducer = (state: StateType, action: Action) => {
