@@ -7,7 +7,7 @@ export default function CheckBox({ todo }: { todo: Todo }) {
     dispatch({
       type: "CHANGE_STATUS",
       payload: id
-    })
+    });
   };
 
   return (
