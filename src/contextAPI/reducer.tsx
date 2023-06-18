@@ -13,7 +13,11 @@ export const reducer = (state: StateType, action: Action) => {
                 ...state,
                 todos: [...state.todos, action.payload],
             };
-
+        case "CHANGE_STATUS":
+            return {
+                ...state,
+                todos: state.todos.map((todo) => todo.id === action.payload ? { ...todo, isCompleted: !todo.isCompleted } : todo)
+            }
         default:
             throw new Error();
     }

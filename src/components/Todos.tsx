@@ -1,5 +1,6 @@
 import { useState, type FormEvent } from "react";
 import { useDispatch, useSelector } from "~/contextAPI/hooks";
+import CheckBox from "./CheckBox";
 
 export default function Todos() {
     const dispatch = useDispatch();
@@ -8,7 +9,6 @@ export default function Todos() {
     const [title, setTitle] = useState("");
 
     //create todo function
-
     const createTodo = (e: (FormEvent<HTMLFormElement | HTMLButtonElement>)) => {
         e.preventDefault();
         dispatch({
@@ -37,7 +37,7 @@ export default function Todos() {
                 {
                     todos && todos.map((todo) => (
                         <div key={todo.id} className="flex items-center p-2">
-                            {/* <CheckBox id={todo.id} changeStatus={changeStatus} isCompleted={todo.isCompleted} /> */}
+                            <CheckBox key={todo.id} todo={todo} />
                             <h1 className={`text-2xl font-bold ${todo.isCompleted ? "line-through" : ""}`}>
                                 {todo.title}
                             </h1>
