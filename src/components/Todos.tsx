@@ -5,7 +5,7 @@ import Todo from "./Todo";
 export default function Todos() {
     const dispatch = useDispatch();
     const todos = useSelector((s) => s.todos);
-
+    const findId = todos?.sort((a, b) => b.id - a.id)[0]?.id;
     const [title, setTitle] = useState("");
 
     //create todo function
@@ -15,7 +15,7 @@ export default function Todos() {
             type: "ADD_TODO",
             payload:
             {
-                id: todos.length + 1,
+                id: findId ? findId + 1 : todos.length + 1,
                 title,
                 isCompleted: false
             }
