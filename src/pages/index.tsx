@@ -1,10 +1,10 @@
 import { type NextPage } from "next";
-import Todos from "~/components/Todos";
+import HomePage from "~/components/HomePage";
 
 const Home: NextPage = () => {
   return (
     <>
-      <Todos />
+      <HomePage />
     </>
   );
 };
