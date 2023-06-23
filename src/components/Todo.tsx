@@ -49,8 +49,8 @@ export default function Todo({ todo }: { todo: Todo }) {
             onClick={(e) => {
               if (title.trim() !== "") {
                 setEdit((m) => !m);
+                updateTitle(e);
               }
-              updateTitle(e);
             }}
             className="text-green-600"
           >

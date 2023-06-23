@@ -1,11 +1,9 @@
 import { useState, type FormEvent } from "react";
 import { VscAdd } from "react-icons/vsc";
-import { useDispatch, useSelector } from "~/contextAPI/hooks";
+import { useDispatch } from "~/contextAPI/hooks";
 
 export default function CreateTodo() {
-  const todos = useSelector((s) => s.todos);
-  const highestId = todos?.sort((a, b) => b.id - a.id)[0]?.id;
-  console.log(highestId, todos);
+  const id = new Date().valueOf();
   const [title, setTitle] = useState("");
   const dispatch = useDispatch();
 
@@ -16,7 +14,7 @@ export default function CreateTodo() {
       dispatch({
         type: "ADD_TODO",
         payload: {
-          id: highestId ? highestId + 1 : todos.length,
+          id: id,
           title,
           isCompleted: false,
         },
