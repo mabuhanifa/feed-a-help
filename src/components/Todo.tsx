@@ -47,7 +47,9 @@ export default function Todo({ todo }: { todo: Todo }) {
           <button
             type="submit"
             onClick={(e) => {
-              setEdit((m) => !m);
+              if (title.trim() !== "") {
+                setEdit((m) => !m);
+              }
               updateTitle(e);
             }}
             className="text-green-600"
