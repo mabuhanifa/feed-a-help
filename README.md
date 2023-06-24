@@ -17,14 +17,14 @@ Option A: Tailwind CSS
 - [x] Initialise a new Git repository in your project directory.
 - [x] Commit your code with an appropriate commit message.
 - [x] Create a new branch called feature/add-todo.
-- [ ] In the HomePage component, add a footer component that displays copyright information.
-- [ ] Commit your changes with an appropriate commit message.
-- [ ] Push your branch to the remote repository.
-- [ ] Open a new pull request to merge your feature/add-footer branch into the main branch.
-- [ ] Write a descriptive pull request title and description.
+- [x] In the HomePage component, add a footer component that displays copyright information.
+- [x] Commit your changes with an appropriate commit message.
+- [x] Push your branch to the remote repository.
+- [x] Open a new pull request to merge your feature/add-footer branch into the main branch.
+- [x] Write a descriptive pull request title and description.
 - [ ] Request a code review from a team member (imaginary reviewer).
 - [ ] Incorporate any feedback given by the reviewer by making additional commits.
-- [ ] Merge the pull request into the main branch.
+- [x] Merge the pull request into the main branch.
 - [ ] Create a new branch called feature/update-navbar.
 - [ ] In the TodoList component, add a new link to a page called Blog.
 - [ ] Commit your changes with an appropriate commit message.
