@@ -22,8 +22,8 @@ Option A: Tailwind CSS
 - [x] Push your branch to the remote repository.
 - [x] Open a new pull request to merge your feature/add-footer branch into the main branch.
 - [x] Write a descriptive pull request title and description.
-- [ ] Request a code review from a team member (imaginary reviewer).
-- [ ] Incorporate any feedback given by the reviewer by making additional commits.
+- [x] Request a code review from a team member (imaginary reviewer).
+- [x] Incorporate any feedback given by the reviewer by making additional commits.
 - [x] Merge the pull request into the main branch.
 - [x] Create a new branch called feature/update-navbar.
 - [x] In the TodoList component, add a new link to a page called Blog.
@@ -31,6 +31,6 @@ Option A: Tailwind CSS
 - [x] Push your branch to the remote repository.
 - [x] Open a new pull request to merge your feature/update-navbar branch into the main branch.
 - [x] Write a descriptive pull request title and description.
-- [ ] Request a code review from the same team member (imaginary reviewer).
-- [ ] Incorporate any feedback given by the reviewer by making additional commits.
+- [x] Request a code review from the same team member (imaginary reviewer).
+- [x] Incorporate any feedback given by the reviewer by making additional commits.
 - [x] Merge the pull request into the main branch.
