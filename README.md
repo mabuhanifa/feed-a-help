@@ -3,43 +3,20 @@
 - Task 1: Create simple TODO LIST using React and Next.js
 
 - [x] Create a new React Next.js project using TypeScript.
-- [ ] Create a page component called HomePage that renders a simple TodoList as shown in the animation.
-
-## What are we looking for:
-
-- How do you generate projects?
-- How do you structure your Project?
-- How do you do naming conventions?
-- How do you do Separation of Concern?
-- Using React Design Patterns?
-- How dirty and disgusting you are
-
-Task 2: Styling Choose one of the following options:
+- [x] Create a page component called HomePage that renders a simple TodoList as shown in the animation.
 
 Option A: Tailwind CSS
 
 - [x] Install Tailwind CSS in your Next.js project.
 - [x] Use Tailwind CSS utility classes to style the components you created in Task 1.
-- [ ] Show your Creativity
-- [ ] Make it responsive
-
-## Option B: styled-components
-
-- [ ] Install styled-components in your Next.js project.
-- [ ] Create styled components for the components you created in Task 1.
-- [ ] Show your Creativity
-- [ ] Make it responsive
-
-# What are we looking for:
-
-- How much CSS used
-- The Responsive Design
+- [x] Show your Creativity
+- [x] Make it responsive
 
 # Task 3: Git and Version Control
 
 - [x] Initialise a new Git repository in your project directory.
 - [x] Commit your code with an appropriate commit message.
-- [ ] Create a new branch called feature/add-todo.
+- [x] Create a new branch called feature/add-todo.
 - [ ] In the HomePage component, add a footer component that displays copyright information.
 - [ ] Commit your changes with an appropriate commit message.
 - [ ] Push your branch to the remote repository.
@@ -57,14 +34,3 @@ Option A: Tailwind CSS
 - [ ] Request a code review from the same team member (imaginary reviewer).
 - [ ] Incorporate any feedback given by the reviewer by making additional commits.
 - [ ] Merge the pull request into the main branch.
-- [ ] What are we looking for:
-
-Can you make a branch?
-How do you make commit messages?
-Can you make a clean Pull request?
-Can you handle git rebase or git merge?
-Can you make a Pull Request that can close other multiple Issues?
-INSTRUCTIONS for SUBMISSION
-
-Deadline: 24th June (2 weeks) Saturday
-MUST submit you github repository with all your code
