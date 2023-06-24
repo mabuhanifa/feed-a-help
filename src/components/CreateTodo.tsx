@@ -23,27 +23,30 @@ export default function CreateTodo() {
     }
   };
   return (
-    <div className="flex justify-center">
-      <form
-        onSubmit={(e) => createTodo(e)}
-        className="shad flex items-center gap-2 rounded p-5"
-      >
-        <input
-          type="text"
-          name="title"
-          value={title}
-          className="rounded-md bg-gray-300 p-2 px-10 placeholder:text-gray-600"
-          onChange={(e) => setTitle(e.target.value)}
-          placeholder="ADD ITEM"
-        />
-        <button
-          type="submit"
+    <>
+      <h1 className="my-5 text-center text-2xl font-bold">TODO LIST</h1>
+      <div className="flex justify-center">
+        <form
           onSubmit={(e) => createTodo(e)}
-          className="rounded-md bg-blue-500 p-2.5 text-white"
+          className="shad flex items-center gap-2 rounded p-5"
         >
-          <VscAdd size={20} />
-        </button>
-      </form>
-    </div>
+          <input
+            type="text"
+            name="title"
+            value={title}
+            className="rounded-md bg-gray-300 p-2 px-10 placeholder:text-gray-600"
+            onChange={(e) => setTitle(e.target.value)}
+            placeholder="ADD ITEM"
+          />
+          <button
+            type="submit"
+            onSubmit={(e) => createTodo(e)}
+            className="rounded-md bg-blue-500 p-2.5 text-white"
+          >
+            <VscAdd size={20} />
+          </button>
+        </form>
+      </div>
+    </>
   );
 }

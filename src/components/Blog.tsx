@@ -7,6 +7,7 @@ export default function Blog() {
         <h1 className="text-center text-4xl font-bold">Welcome to Blog</h1>
         <div className="my-5 grid grid-cols-2 gap-4">
           <div className="shad rounded-lg p-5">
+            <h2 className="my-2 text-2xl font-bold">React</h2>
             <p>
               React is a popular JavaScript library for building user
               interfaces. It uses a component-based architecture, allowing
@@ -19,6 +20,7 @@ export default function Blog() {
             </p>
           </div>
           <div className="shad rounded-lg p-5">
+            <h2 className="my-2 text-2xl font-bold">Node</h2>
             <p>
               Node.js is a server-side JavaScript runtime that enables
               developers to build scalable and high-performance applications.
@@ -30,6 +32,7 @@ export default function Blog() {
             </p>
           </div>
           <div className="shad rounded-lg p-5">
+            <h2 className="my-2 text-2xl font-bold"> Next.js</h2>
             <p>
               Next.js is a framework built on top of React that enhances React
               capabilities. It offers server-side rendering, automatic code
@@ -41,6 +44,7 @@ export default function Blog() {
             </p>
           </div>
           <div className="shad rounded-lg p-5">
+            <h2 className="my-2 text-2xl font-bold"> Fullstack development</h2>
             <p>
               Fullstack development involves working on both the front-end and
               back-end of a web application. It requires knowledge of various
