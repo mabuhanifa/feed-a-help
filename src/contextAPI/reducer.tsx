@@ -1,5 +1,26 @@
 export const initialState: StateType = {
-  todos: [],
+  todos: [
+    {
+      id: 1,
+      title: "Learn React",
+      isCompleted: true,
+    },
+    {
+      id: 2,
+      title: "Learn NextJS",
+      isCompleted: true,
+    },
+    {
+      id: 3,
+      title: "Learn Kubernetes",
+      isCompleted: false,
+    },
+    {
+      id: 4,
+      title: "Learn Golang",
+      isCompleted: false,
+    },
+  ],
 };
 
 export const reducer = (state: StateType, action: Action) => {
